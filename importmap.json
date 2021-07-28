@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "react": "https://cdn.jsdelivr.net/npm/react@16.13.0/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.0/umd/react-dom.production.min.js",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.1/lib/system/single-spa.min.js",
+    "@wcs/root-config": "https://wcs-single-spa-demo.s3.amazonaws.com/%40wcs/root-config/61526fd1c61b64a06e45cfd06d9f234e18aac014/wcs-root-config.js",
+    "@wcs/single-spa-demo-nav": "https://wcs-single-spa-demo.s3.amazonaws.com/%40wcs/nav/8599b8d3b9b91f1fa1cc91c1c6b6ef8adee1a5c5/wcs-single-spa-demo-nav.js",
+    "@wcs/single-spa-demo-page-1": "https://wcs-single-spa-demo.s3.amazonaws.com/%40wcs/page-1/a71ed168d8760c8114bdcebd8a456c638997af62/wcs-single-spa-demo-page-1.js",
+    "@wcs/single-spa-demo-page-2": "https://wcs-single-spa-demo.s3.amazonaws.com/%40wcs/page-2/5b60104258862dcbdaec7f246cbd6ed914125542/wcs-single-spa-demo-page-2.js"
+  }
+}

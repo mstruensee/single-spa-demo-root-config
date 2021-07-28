@@ -2,6 +2,7 @@
   "name": "@wcs/root-config",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
+    "start:dev": "webpack-dev-server --mode=development --port 9000 --env.isLocal=true",
     "lint": "eslint src --ext js",
     "lint:fix": "eslint src --ext js --fix",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
@@ -38,6 +39,8 @@
   "dependencies": {
     "@types/jest": "^26.0.23",
     "@types/systemjs": "^6.1.0",
+    "express": "^4.17.1",
+    "serverless-http": "^2.7.0",
     "single-spa": "^5.9.3"
   }
 }
